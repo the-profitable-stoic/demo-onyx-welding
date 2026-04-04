@@ -1,0 +1,608 @@
+{
+  "business": {
+    "name": "Onyx Welding",
+    "phone": "555-wel-r93",
+    "category": "welding",
+    "city": "Detroit",
+    "state": "MI"
+  },
+  "design": {
+    "preset": {
+      "id": "welding-dark-premium",
+      "categoryGroup": "welding",
+      "name": "Dark Premium",
+      "recipeFile": "welding/dark-premium.astro",
+      "colors": {
+        "primary": "#F59E0B",
+        "primaryDark": "#c47e09",
+        "primaryLight": "#fbd89d",
+        "secondary": "#2A2A2A",
+        "accent": "#f7ad30",
+        "background": "#1A1A1A",
+        "backgroundAlt": "#111111",
+        "surface": "#2A2A2A",
+        "text": "#F5F5F5",
+        "textLight": "#A0A0A0",
+        "textOnDark": "#FFFFFF",
+        "border": "#3A3A3A"
+      },
+      "typography": {
+        "headingFont": "Space Grotesk",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "glow"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "dark",
+          "surface",
+          "dark",
+          "surface",
+          "dark"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "welding/dark-premium"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Detroit's Trusted Welding Experts",
+      "heroSubline": "Precision welding solutions built for Michigan's toughest conditions. Serving Detroit and surrounding communities since 2012.",
+      "aboutTitle": "Built on Detroit Grit",
+      "aboutText": [
+        "Onyx Welding was founded in Detroit by a team of local tradesmen who saw the need for durable metalwork that stands up to Michigan's harsh winters. What started as a two-man operation in a Corktown garage has grown into a 20+ crew serving communities across Metro Detroit.",
+        "We approach every job with the same no-nonsense work ethic Detroit is known for. No shortcuts, no excuses—just clean seams, proper penetration, and welds that last decades in our freeze-thaw climate.",
+        "From repairing historic ironwork in Indian Village to fabricating custom garage solutions in Rochester Hills, we're proud to strengthen the structures that make our communities home."
+      ],
+      "valueProps": [
+        {
+          "title": "Built for Michigan",
+          "description": "Our techniques account for salt corrosion, thermal expansion, and other local challenges most welders overlook."
+        },
+        {
+          "title": "No Job Too Tough",
+          "description": "We specialize in complex repairs other shops turn down—from century-old structural iron to modern automotive fabrication."
+        },
+        {
+          "title": "Same-Day Estimates",
+          "description": "Get a straightforward quote within 24 hours, with no hidden fees or pressure tactics."
+        },
+        {
+          "title": "Lifetime Guarantee",
+          "description": "Every weld comes with our promise—if it fails under normal use, we'll fix it at no cost."
+        }
+      ],
+      "ctaHeadline": "Need Metalwork That Lasts?",
+      "ctaSubline": "Call 555-WEL-R93 today for Detroit's most reliable welding service."
+    },
+    "services": [
+      {
+        "slug": "structural-steel-repair",
+        "name": "Structural Steel Repair",
+        "shortDescription": "Restore compromised steel beams, columns, and supports in Detroit's aging buildings.",
+        "description": "Michigan's freeze-thaw cycles and road salt take a toll on structural steel. We specialize in repairing corroded or cracked supports in Detroit's historic homes and mid-century commercial buildings.\n\nOur process begins with abrasive blasting to remove all rust, followed by ultrasonic testing to identify hidden weaknesses. We use high-penetration techniques developed for bridge repair to ensure new welds outlast the original structure.\n\nCommon projects include reinforcing sagging garage headers in Palmer Woods homes, repairing fire escapes in Midtown apartments, and stabilizing commercial mezzanines in Corktown lofts.",
+        "process": [
+          "Step 1: Full structural assessment with magnetic particle inspection",
+          "Step 2: Custom repair plan addressing load paths and thermal movement",
+          "Step 3: Precision welding using pre-heat and post-heat treatments",
+          "Step 4: Protective coating application matched to original specs"
+        ],
+        "benefits": [
+          "Prevents costly foundation issues from shifting structures",
+          "Meets historic district preservation requirements",
+          "Uses thicker filler material than standard repairs",
+          "Eliminates the need for full beam replacement"
+        ],
+        "faq": [
+          {
+            "question": "How do you prevent heat distortion in thin steel?",
+            "answer": "We use pulsed MIG welding with precise temperature monitoring—a technique perfected on Detroit's automotive assembly lines. This minimizes warping while maintaining full penetration."
+          },
+          {
+            "question": "Can you match original riveted connections?",
+            "answer": "Yes. For historic properties, we fabricate custom rivet-style welds that maintain period accuracy while providing modern strength."
+          }
+        ]
+      },
+      {
+        "slug": "custom-metal-fabrication",
+        "name": "Custom Metal Fabrication",
+        "shortDescription": "Bespoke metalwork solutions for residential and commercial clients.",
+        "description": "From ornamental iron gates in Indian Village to industrial shelving for Royal Oak breweries, we fabricate metal components that combine form and function.\n\nOur shop is equipped to handle everything from delicate scrollwork to heavy-duty 1/2\" plate steel. We work closely with architects, contractors, and homeowners to translate designs into durable finished products.\n\nRecent projects include wrought-iron balcony railings for a Midtown condo conversion, stainless steel countertops for a Corktown restaurant, and aluminum awning frames for a Palmer Woods historic renovation.",
+        "process": [
+          "Step 1: Consultation to review design specs and load requirements",
+          "Step 2: Material selection based on aesthetics and environmental factors",
+          "Step 3: Precision cutting and forming using CNC plasma and press brakes",
+          "Step 4: Final assembly with corrosion-resistant welding techniques"
+        ],
+        "benefits": [
+          "All fabrication done in-house for quality control",
+          "Materials selected for Michigan's climate",
+          "Seamless integration with existing structures",
+          "Faster turnaround than outsourcing to multiple shops"
+        ],
+        "faq": [
+          {
+            "question": "What metals work best for outdoor Detroit installations?",
+            "answer": "We recommend weathering steel for structural elements and powder-coated aluminum for decorative work—both resist salt corrosion better than standard mild steel."
+          },
+          {
+            "question": "Can you replicate historic metalwork details?",
+            "answer": "Our team has extensive experience recreating early 20th century metal profiles using traditional forging methods combined with modern metallurgy."
+          }
+        ]
+      },
+      {
+        "slug": "automotive-welding",
+        "name": "Automotive Welding",
+        "shortDescription": "Expert repairs and modifications for classic cars and daily drivers.",
+        "description": "Detroit runs on cars—and we keep them running with precision auto welding services. Whether you're restoring a vintage Mustang in Royal Oak or reinforcing a work truck's frame in Rochester Hills, we've got the skills.\n\nOur specialty is rust repair on Michigan vehicles. We cut out corrosion completely rather than patching over it, then weld in new metal with proper drainage channels to prevent recurrence. For performance applications, we TIG weld headers and exhaust systems with smooth interior beads for optimal flow.\n\nCommon projects include floor pan replacements on 1960s muscle cars, trailer hitch installations for Troy contractors, and roll cage fabrication for track vehicles.",
+        "process": [
+          "Step 1: Complete assessment of structural integrity",
+          "Step 2: Laser-cut replacement panels from OEM-spec sheet metal",
+          "Step 3: Gas-tight welding with proper penetration",
+          "Step 4: Rustproofing treatment before final assembly"
+        ],
+        "benefits": [
+          "Uses factory-style spot welds where appropriate",
+          "Maintains original crash protection integrity",
+          "Eliminates future corrosion at repair sites",
+          "Certified for collision repair standards"
+        ],
+        "faq": [
+          {
+            "question": "How do you prevent warping thin auto body panels?",
+            "answer": "We alternate weld points and use aluminum chill blocks to dissipate heat—a technique developed working with Detroit's auto manufacturers."
+          },
+          {
+            "question": "Can you weld aluminum engine components?",
+            "answer": "Yes. Our pulsed TIG setup handles everything from transmission cases to turbo manifolds without compromising heat-treated alloys."
+          }
+        ]
+      },
+      {
+        "slug": "commercial-welding",
+        "name": "Commercial Welding",
+        "shortDescription": "Industrial-grade solutions for Metro Detroit businesses.",
+        "description": "When your Ann Arbor manufacturing plant needs heavy-duty metalwork or your Troy retail space requires custom fixtures, we deliver commercial welding services that keep operations running smoothly.\n\nWe understand the unique demands of commercial clients—from after-hours work schedules to strict municipal codes. Our team handles everything from stainless steel food service equipment to structural repairs in active warehouses.\n\nRecent projects include conveyor system repairs for a Rochester Hills parts supplier, ADA-compliant handrails for a Midtown office building, and security gate installation for a Corktown distillery.",
+        "process": [
+          "Step 1: Job site evaluation with minimal disruption",
+          "Step 2: Coordination with facility managers on safety protocols",
+          "Step 3: Industrial-strength welding using appropriate techniques",
+          "Step 4: Final inspection meeting all OSHA and ADA requirements"
+        ],
+        "benefits": [
+          "24/7 emergency service for critical failures",
+          "Certified welders for pressure vessels and load-bearing structures",
+          "Familiarity with Detroit-area building codes",
+          "Lift equipment for high-access work"
+        ],
+        "faq": [
+          {
+            "question": "What welding methods do you use for stainless steel kitchens?",
+            "answer": "We back-purge all stainless welds with argon gas to prevent sugaring—a must for USDA-compliant food prep areas."
+          },
+          {
+            "question": "Can you work in active manufacturing facilities?",
+            "answer": "Absolutely. Our crews are trained in lockout/tagout procedures and can work around production schedules."
+          }
+        ]
+      },
+      {
+        "slug": "residential-welding",
+        "name": "Residential Welding",
+        "shortDescription": "Home metalwork solutions built for Michigan living.",
+        "description": "From repairing sagging porch columns in historic Rosedale Park homes to installing custom fireplace surrounds in Rochester Hills estates, we handle residential welding projects with equal precision.\n\nMichigan homeowners face unique challenges—ice dams that tear apart gutters, road salt that eats through garage door tracks, and freeze cycles that crack cast iron drains. We've developed specialized solutions for all these issues.\n\nCommon projects include wrought iron fence repairs in Indian Village, basement beam reinforcement in Troy ranches, and custom steel stair fabrication for Midtown loft conversions.",
+        "process": [
+          "Step 1: Thorough property assessment noting all metal components",
+          "Step 2: Custom solution addressing both function and aesthetics",
+          "Step 3: Clean welding with minimal sparks or fumes",
+          "Step 4: Protective finishes matched to your home's style"
+        ],
+        "benefits": [
+          "Solutions designed for Michigan's climate extremes",
+          "Historic preservation expertise",
+          "Dust containment systems for interior work",
+          "Landscaping protection during projects"
+        ],
+        "faq": [
+          {
+            "question": "How do you prevent sparks from damaging my home?",
+            "answer": "We use fire-resistant blankets and portable welding screens, plus vacuum extraction for all grinding operations."
+          },
+          {
+            "question": "Can you match my home's existing metalwork?",
+            "answer": "Our metal library includes hundreds of profiles to replicate original trim, railings, and decorative elements."
+          }
+        ]
+      },
+      {
+        "slug": "emergency-welding",
+        "name": "Emergency Welding",
+        "shortDescription": "24/7 critical repairs when you can't wait.",
+        "description": "When a broken crane at your Detroit job site or a collapsed garage header in Royal Oak can't wait for business hours, our emergency welding team responds fast.\n\nWe maintain a dedicated crew and mobile welding unit ready to handle urgent structural failures, equipment breakdowns, and safety hazards. Our rapid response protocols get a certified welder on site within 90 minutes for most Metro Detroit locations.\n\nTypical emergency calls include broken snowplow frames during winter storms, failed structural connections in aging buildings, and damaged loading docks at distribution centers.",
+        "process": [
+          "Step 1: Immediate phone assessment of safety risks",
+          "Step 2: Dispatch of nearest available certified welder",
+          "Step 3: Temporary stabilization if needed",
+          "Step 4: Permanent repair following safety protocols"
+        ],
+        "benefits": [
+          "24/7/365 availability",
+          "Mobile welding rig with generator power",
+          "OSHA-compliant temporary fixes",
+          "Coordination with local fire departments when needed"
+        ],
+        "faq": [
+          {
+            "question": "What constitutes a welding emergency?",
+            "answer": "Any situation where metal failure creates immediate safety hazards, operational shutdowns, or weather exposure risks qualifies for our emergency service."
+          },
+          {
+            "question": "Do you charge extra for after-hours calls?",
+            "answer": "We apply a modest premium for true emergencies, but never for routine work scheduled during normal hours."
+          }
+        ]
+      },
+      {
+        "slug": "ornamental-metalwork",
+        "name": "Ornamental Metalwork",
+        "shortDescription": "Beautiful custom metal features that withstand Detroit's elements.",
+        "description": "Elevate your Detroit-area property with handcrafted metalwork that combines artistry with durability. Our ornamental services range from historic gate reproductions in Palmer Woods to modern steel sculptures for Ann Arbor businesses.\n\nWe work with architects and designers to create signature metal elements that enhance any space. Using traditional blacksmithing techniques alongside modern CAD design, we produce railings, screens, and decorative features that stand up to Michigan's harsh weather.\n\nRecent projects include a bronze-clad entry canopy for a Midtown law firm, Corten steel garden edging in Rosedale Park, and replica 1920s light fixtures for an Indian Village renovation.",
+        "process": [
+          "Step 1: Collaborative design consultation",
+          "Step 2: Material selection balancing aesthetics and longevity",
+          "Step 3: Hand fabrication using appropriate techniques",
+          "Step 4: Patina development or protective coating"
+        ],
+        "benefits": [
+          "True craftsmanship—no mass-produced elements",
+          "Weather-resistant designs proven in Michigan",
+          "Seamless integration with existing architecture",
+          "Materials that develop character over time"
+        ],
+        "faq": [
+          {
+            "question": "What metals work best for outdoor art installations?",
+            "answer": "We recommend weathering steel for its protective oxide layer or marine-grade stainless steel for coastal-inspired pieces."
+          },
+          {
+            "question": "Can you recreate historic ironwork patterns?",
+            "answer": "Our craftsmen study original Detroit ironwork to accurately reproduce scrolls, fleur-de-lis, and other period motifs."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marcus T.",
+        "rating": 5,
+        "service": "Structural Steel Repair",
+        "text": "Onyx saved our 1930s Corktown loft when we discovered corroded steel beams during renovation. They engineered a solution that preserved the historic character while meeting modern codes. Two winters later, everything's still rock solid.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Elena R.",
+        "rating": 5,
+        "service": "Custom Metal Fabrication",
+        "text": "The team fabricated a stunning steel-and-glass partition for our Royal Oak restaurant. They understood exactly how to balance industrial aesthetics with practical cleaning needs. Came in on budget despite some complex angles.",
+        "date": "2025-02-28"
+      },
+      {
+        "name": "Darnell W.",
+        "rating": 5,
+        "service": "Automotive Welding",
+        "text": "My '68 Firebird needed serious floor pan work after decades of Michigan winters. These guys cut out every bit of rust and welded in new metal so cleanly you'd never know it wasn't factory. Even replicated the original spot welds.",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "Sophia K.",
+        "rating": 5,
+        "service": "Residential Welding",
+        "text": "Our Palmer Woods home's wrought iron fence was falling apart. Onyx not only repaired it but improved the design to prevent future ice damage. Their blacksmith even matched the original 1920s scrollwork perfectly.",
+        "date": "2024-11-22"
+      },
+      {
+        "name": "James L.",
+        "rating": 5,
+        "service": "Emergency Welding",
+        "text": "Called at 2 AM when our Troy manufacturing plant's conveyor system snapped during peak production. Had a welder on site in 45 minutes who made a temporary fix, then returned next day for permanent repair. Saved us $50k in downtime.",
+        "date": "2024-10-05"
+      },
+      {
+        "name": "Natalie P.",
+        "rating": 5,
+        "service": "Ornamental Metalwork",
+        "text": "The Corten steel trellis they created for our Ann Arbor garden has held up beautifully through two brutal winters. It's become the focal point of our backyard—functional art that actually lasts in Michigan.",
+        "date": "2024-09-18"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Detroit Welding Services | Onyx Welding",
+        "description": "Trusted welding contractor serving Detroit, Royal Oak, Troy and beyond. Structural repairs, custom fabrication, and emergency services."
+      },
+      "about": {
+        "title": "About Onyx Welding | Detroit Metal Experts",
+        "description": "Learn about our Detroit roots and commitment to quality welding that stands up to Michigan's toughest conditions."
+      },
+      "services": {
+        "title": "Welding Services in Detroit | Onyx Welding",
+        "description": "Comprehensive welding solutions including structural repairs, automotive work, and custom fabrication for Metro Detroit."
+      },
+      "contact": {
+        "title": "Contact Detroit's Welding Pros | Onyx Welding",
+        "description": "Get in touch for same-day estimates on welding projects in Detroit, Ann Arbor, Troy, Royal Oak and Rochester Hills."
+      },
+      "reviews": {
+        "title": "Welding Service Reviews | Onyx Welding Detroit",
+        "description": "See what Detroit-area clients say about our structural steel repairs, custom fabrication, and emergency welding services."
+      },
+      "service-areas": {
+        "title": "Welding Service Areas | Detroit Metro",
+        "description": "Onyx Welding serves Detroit, Ann Arbor, Troy, Royal Oak, Rochester Hills and surrounding communities."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Ann Arbor",
+        "slug": "ann-arbor-mi",
+        "state": "MI",
+        "content": "Onyx Welding proudly serves the Ann Arbor community, providing high-quality welding services for residential and commercial projects. With a diverse housing mix, including many older homes and new developments near the University of Michigan, our team is skilled in custom fabrication, repairs, and structural work tailored to the area's unique needs. The cold, snowy winters with lake-effect snow can take a toll on metal structures, so we specialize in rust prevention, reinforcement, and weather-resistant solutions to keep your property safe and durable year-round.",
+        "localContext": "Ann Arbor is a vibrant university town with diverse architecture and a mix of historic and modern homes.",
+        "nearbyAreas": [
+          "Ypsilanti",
+          "Saline",
+          "Dexter"
+        ]
+      },
+      {
+        "city": "Troy",
+        "slug": "troy-mi",
+        "state": "MI",
+        "content": "Onyx Welding is a trusted partner for homeowners and businesses in Troy, offering expert welding solutions for the city's classic 1960s-70s ranch and Colonial-style homes. Whether you need custom railings, gate repairs, or structural reinforcements, our team understands the craftsmanship required for these properties. The harsh Michigan winters can accelerate wear on outdoor metalwork, so we provide durable, weather-resistant welding to ensure longevity and safety for your investment.",
+        "localContext": "Troy features well-established suburban neighborhoods with mid-century ranch and Colonial homes.",
+        "nearbyAreas": [
+          "Birmingham",
+          "Bloomfield Hills",
+          "Rochester"
+        ]
+      },
+      {
+        "city": "Royal Oak",
+        "slug": "royal-oak-mi",
+        "state": "MI",
+        "content": "Onyx Welding brings precision and craftsmanship to Royal Oak, where many homes date back to the 1920s-40s and feature charming bungalow and Colonial designs. Our team specializes in restoring and reinforcing historic metalwork, including gates, fences, and decorative elements, while ensuring modern durability. With cold, snowy winters causing metal fatigue, we offer preventative maintenance and repair services to protect your property from the elements.",
+        "localContext": "Royal Oak is known for its historic architecture, including early 20th-century bungalows and Colonials.",
+        "nearbyAreas": [
+          "Ferndale",
+          "Clawson",
+          "Berkley"
+        ]
+      },
+      {
+        "city": "Rochester Hills",
+        "slug": "rochester-hills-mi",
+        "state": "MI",
+        "content": "Onyx Welding provides reliable welding services for Rochester Hills, where 1980s-90s suburban developments dominate the landscape. From custom patio structures to garage reinforcements, our team helps homeowners maintain and upgrade their properties with durable metalwork. The area's cold winters demand resilient solutions, so we prioritize high-quality materials and techniques to withstand lake-effect snow and freezing temperatures.",
+        "localContext": "Rochester Hills is a family-friendly suburb with a focus on well-maintained 1980s-90s homes.",
+        "nearbyAreas": [
+          "Troy",
+          "Auburn Hills",
+          "Shelby Township"
+        ]
+      },
+      {
+        "city": "Livonia",
+        "slug": "livonia-mi",
+        "state": "MI",
+        "content": "Onyx Welding serves Livonia's residential and commercial clients with top-tier welding and fabrication services. The city's mix of mid-century and newer homes often requires custom metalwork for railings, fences, and structural supports. Our expertise in weather-resistant welding ensures your projects hold up against Michigan's snowy winters and seasonal temperature shifts.",
+        "localContext": "Livonia is a spacious suburb with a blend of mid-century and contemporary housing.",
+        "nearbyAreas": [
+          "Westland",
+          "Farmington Hills",
+          "Plymouth"
+        ]
+      },
+      {
+        "city": "Farmington Hills",
+        "slug": "farmington-hills-mi",
+        "state": "MI",
+        "content": "Onyx Welding is a go-to resource for Farmington Hills residents needing durable metal solutions for their homes and businesses. Whether you're updating wrought-iron railings or reinforcing a carport, our team delivers precision and reliability. Given the cold winters, we focus on rust-resistant techniques to extend the life of your metal structures.",
+        "localContext": "Farmington Hills offers a mix of upscale suburban homes and commercial properties.",
+        "nearbyAreas": [
+          "Novi",
+          "Livonia",
+          "West Bloomfield"
+        ]
+      },
+      {
+        "city": "Sterling Heights",
+        "slug": "sterling-heights-mi",
+        "state": "MI",
+        "content": "Onyx Welding meets the welding needs of Sterling Heights, where well-kept suburban homes and businesses rely on sturdy metalwork for safety and aesthetics. From fence repairs to custom fabrication, our team helps property owners combat the wear and tear caused by Michigan’s snowy winters. We specialize in reinforcing gates, railings, and structural supports to withstand harsh weather.",
+        "localContext": "Sterling Heights is a thriving suburb with a strong focus on residential upkeep.",
+        "nearbyAreas": [
+          "Warren",
+          "Clinton Township",
+          "Troy"
+        ]
+      },
+      {
+        "city": "West Bloomfield",
+        "slug": "west-bloomfield-mi",
+        "state": "MI",
+        "content": "Onyx Welding provides high-end welding services for West Bloomfield’s upscale homes and commercial properties. Our team excels in custom projects, from ornate gates to structural steelwork, blending functionality with aesthetic appeal. The area’s snowy winters demand robust solutions, so we prioritize rust prevention and long-lasting durability in every job.",
+        "localContext": "West Bloomfield features luxury homes and expansive properties with high-quality craftsmanship.",
+        "nearbyAreas": [
+          "Farmington Hills",
+          "Commerce Township",
+          "Bloomfield Hills"
+        ]
+      },
+      {
+        "city": "Novi",
+        "slug": "novi-mi",
+        "state": "MI",
+        "content": "Onyx Welding supports Novi’s growing residential and business community with expert welding services. From modern home installations to commercial metalwork, our team ensures precision and durability. The region’s lake-effect snow makes weather-resistant solutions essential, so we focus on rust-proof materials and reinforced structures.",
+        "localContext": "Novi is a rapidly developing suburb with a mix of housing styles and commercial growth.",
+        "nearbyAreas": [
+          "Northville",
+          "Wixom",
+          "Farmington Hills"
+        ]
+      },
+      {
+        "city": "Grosse Pointe",
+        "slug": "grosse-pointe-mi",
+        "state": "MI",
+        "content": "Onyx Welding caters to Grosse Pointe’s historic and luxury homes with meticulous welding and metal fabrication. Many properties feature ornate ironwork that requires expert restoration and maintenance. Given the lakeside climate, we emphasize corrosion-resistant techniques to protect against winter snow and moisture.",
+        "localContext": "Grosse Pointe is known for its stately historic homes and waterfront properties.",
+        "nearbyAreas": [
+          "St. Clair Shores",
+          "Harper Woods",
+          "Detroit"
+        ]
+      },
+      {
+        "city": "Dearborn",
+        "slug": "dearborn-mi",
+        "state": "MI",
+        "content": "Onyx Welding serves Dearborn’s diverse residential and industrial sectors with reliable welding solutions. From vintage home restorations to commercial fabrication, our team adapts to the city’s varied needs. The harsh winter weather requires durable metalwork, and we specialize in strengthening gates, railings, and structural components against the elements.",
+        "localContext": "Dearborn blends historic neighborhoods with industrial and commercial activity.",
+        "nearbyAreas": [
+          "Livonia",
+          "Allen Park",
+          "Inkster"
+        ]
+      },
+      {
+        "city": "Birmingham",
+        "slug": "birmingham-mi",
+        "state": "MI",
+        "content": "Onyx Welding delivers premium welding services for Birmingham’s upscale homes and businesses. Whether crafting custom railings or reinforcing architectural metalwork, our team combines artistry with durability. The snowy winters necessitate high-performance solutions, so we prioritize rust-resistant materials and expert craftsmanship.",
+        "localContext": "Birmingham is a sophisticated suburb with luxury homes and boutique commercial spaces.",
+        "nearbyAreas": [
+          "Bloomfield Hills",
+          "Troy",
+          "Royal Oak"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "structural-steel-repair": "/images/service-structural-steel-repair.webp",
+      "custom-metal-fabrication": "/images/service-custom-metal-fabrication.webp",
+      "automotive-welding": "/images/service-automotive-welding.webp",
+      "commercial-welding": "/images/service-commercial-welding.webp",
+      "emergency-welding": "/images/service-emergency-welding.webp",
+      "ornamental-metalwork": "/images/service-ornamental-metalwork.webp",
+      "residential-welding": "/images/service-residential-welding.webp"
+    },
+    "servicesResponsive": {
+      "structural-steel-repair": {
+        "src": "/images/service-structural-steel-repair.webp",
+        "srcset": "/images/service-structural-steel-repair-400w.webp 400w, /images/service-structural-steel-repair-800w.webp 800w, /images/service-structural-steel-repair-1200w.webp 1200w, /images/service-structural-steel-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "custom-metal-fabrication": {
+        "src": "/images/service-custom-metal-fabrication.webp",
+        "srcset": "/images/service-custom-metal-fabrication-400w.webp 400w, /images/service-custom-metal-fabrication-800w.webp 800w, /images/service-custom-metal-fabrication-1200w.webp 1200w, /images/service-custom-metal-fabrication.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "automotive-welding": {
+        "src": "/images/service-automotive-welding.webp",
+        "srcset": "/images/service-automotive-welding-400w.webp 400w, /images/service-automotive-welding-800w.webp 800w, /images/service-automotive-welding-1200w.webp 1200w, /images/service-automotive-welding.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "commercial-welding": {
+        "src": "/images/service-commercial-welding.webp",
+        "srcset": "/images/service-commercial-welding-400w.webp 400w, /images/service-commercial-welding-800w.webp 800w, /images/service-commercial-welding-1200w.webp 1200w, /images/service-commercial-welding.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "emergency-welding": {
+        "src": "/images/service-emergency-welding.webp",
+        "srcset": "/images/service-emergency-welding-400w.webp 400w, /images/service-emergency-welding-800w.webp 800w, /images/service-emergency-welding-1200w.webp 1200w, /images/service-emergency-welding.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "ornamental-metalwork": {
+        "src": "/images/service-ornamental-metalwork.webp",
+        "srcset": "/images/service-ornamental-metalwork-400w.webp 400w, /images/service-ornamental-metalwork-800w.webp 800w, /images/service-ornamental-metalwork-1200w.webp 1200w, /images/service-ornamental-metalwork.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "residential-welding": {
+        "src": "/images/service-residential-welding.webp",
+        "srcset": "/images/service-residential-welding-400w.webp 400w, /images/service-residential-welding-800w.webp 800w, /images/service-residential-welding-1200w.webp 1200w, /images/service-residential-welding.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
